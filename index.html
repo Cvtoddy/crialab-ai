@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101114">
+  <title>CriaLab AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>CriaLab <span>AI</span></h1>
+    <p>Seu estúdio inteligente</p>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>O que vamos melhorar hoje?</h2>
+      <p>Escolha seu arquivo e transforme sua qualidade.</p>
+
+      <div class="tools">
+        <button onclick="selectMedia('image')">
+          📸 Melhorar foto
+        </button>
+
+        <button onclick="selectMedia('video')">
+          🎬 Melhorar vídeo
+        </button>
+      </div>
+    </section>
+
+    <section class="upload">
+      <h2>Seu próximo projeto começa aqui</h2>
+      <input
+        type="file"
+        id="media"
+        accept="image/*,video/*"
+      >
+      <p>Selecione uma foto ou vídeo do seu iPhone.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
