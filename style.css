@@ -1,0 +1,100 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #101114;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 25px 18px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+header h1 span {
+  color: #a879ff;
+}
+
+header p {
+  color: #999ba5;
+  margin-top: 6px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.welcome {
+  background: #1b1c22;
+  border: 1px solid #30313b;
+  border-radius: 20px;
+  padding: 24px 18px;
+}
+
+.welcome h2 {
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+.welcome p {
+  color: #a5a6b0;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+button {
+  background: #292631;
+  color: white;
+  border: 1px solid #51436b;
+  border-radius: 13px;
+  padding: 18px 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.upload {
+  margin-top: 25px;
+  padding: 24px 18px;
+  background: #1b1c22;
+  border: 1px dashed #7653a8;
+  border-radius: 20px;
+}
+
+.upload h2 {
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.upload input {
+  width: 100%;
+  color: white;
+  font-size: 13px;
+}
+
+.upload p {
+  color: #999ba5;
+  margin-top: 15px;
+  font-size: 13px;
+}
